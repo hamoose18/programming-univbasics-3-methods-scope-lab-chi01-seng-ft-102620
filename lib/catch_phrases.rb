@@ -1,20 +1,23 @@
 
-def mario
-  puts "It's-a me, Mario!"
+def mario 
+  phrase = "It's-a me, Mario!"
+  puts phrase 
 end 
 
-def toadstool
-  puts "Thank You Mario! But Our Princess Is In Another Castle!"
+def toadstool 
+  phrase = "Thank You Mario! But Our Princess Is In Another Castle!"
+  puts phrase
 end 
 
- def  link 
-   puts "It's Dangerous To Go Alone! Take This."
- end 
- 
- def all_phrases
-   puts mario 
-   puts toadstool
-   puts link 
+def link 
+  phrase = "It's Dangerous To Go Alone! Take This."
+  puts phrase
+end 
+
+def all_phrases 
+  puts mario
+  puts toadstool
+  puts link
+end
+
   
- end 
-   
